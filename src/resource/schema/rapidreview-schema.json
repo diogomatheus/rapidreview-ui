@@ -1,0 +1,165 @@
+{
+  "type": "object",
+  "properties": {
+    "research": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "abstract": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "title"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "overview": {
+              "type": "object",
+              "properties": {
+                "retrieved": {
+                  "type": "integer"
+                },
+                "selected": {
+                  "type": "integer"
+                },
+                "filters": {
+                  "type": "object",
+                  "properties": {
+                    "inconsistent": {
+                      "type": "integer"
+                    },
+                    "duplicated": {
+                      "type": "integer"
+                    },
+                    "notfound": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "integer"
+                    },
+                    "abstract": {
+                      "type": "integer"
+                    },
+                    "reading": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "inconsistent",
+                    "duplicated",
+                    "notfound",
+                    "title",
+                    "abstract",
+                    "reading"
+                  ]
+                }
+              },
+              "required": [
+                "retrieved",
+                "selected",
+                "filters"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "overview"
+          ]
+        }
+      ]
+    },
+    "documents": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "year": {
+              "type": "integer"
+            },
+            "authors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "institution": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "country": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "country"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "institution"
+                  ]
+                }
+              ]
+            },
+            "publication": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "venue": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "venue"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "year",
+            "authors",
+            "publication"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "research",
+    "sources",
+    "documents"
+  ]
+}

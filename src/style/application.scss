@@ -1,0 +1,29 @@
+@import 'node_modules/bootstrap/dist/css/bootstrap.min';
+@import 'node_modules/datatables.net-bs5/css/dataTables.bootstrap5.min';
+@import 'node_modules/datatables.net-responsive-bs5/css/responsive.bootstrap5.min';
+
+#rapidreview-ui {
+
+  header {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+  }
+
+  .card {
+    
+    margin-bottom: 2rem;
+
+    .card-body {
+
+      overflow-x: auto;      
+
+      .chart-container {
+        margin: auto;
+        width: 1280px;
+        height: 720px;
+      }
+
+    }
+
+  }
+
+}

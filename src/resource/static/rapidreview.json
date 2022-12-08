@@ -1,0 +1,597 @@
+{
+  "research": {
+    "title": "Identifying Software Process Line Evolution Lessons from Software Product Line Evidence: A Tertiary Study",
+    "abstract": "Defining a software process is a complex activity, especially from scratch. In this scenario, different process reuse techniques have been proposed to reduce the effort, as well as increase the quality of the defined process, such as Software Process Line (SPrL). SPrL provides a systematic way to support software process reuse. However, SPrL is not being widely used in industry yet, mainly due to the lack of support, e.g., SPrL evolution support (maintenance, improvement, tailoring). Unfortunately, there is no specific literature about evolution support in the context of SPrL. Thus, aware of the similarity between the SPrL and Software Product Line (SPL) techniques, this paper aims to identify SPrL evolution lessons (e.g., challenges, enabling technologies) from SPL evidence through a tertiary study.",
+    "keywords": [
+      "Software Evolution",
+      "Software Product Line",
+      "Software Process Line"
+    ]
+  },
+  "sources": [
+    {
+      "name": "SCOPUS",
+      "overview": {
+        "selected": 9,
+        "retrieved": 63,
+        "filters": {
+          "inconsistent": 20,
+          "duplicated": 0,
+          "notfound": 1,
+          "title": 7,
+          "abstract": 20,
+          "reading": 6
+        }
+      }
+    },
+    {
+      "name": "IEEEXplore",
+      "overview": {
+        "selected": 0,
+        "retrieved": 5,
+        "filters": {
+          "inconsistent": 0,
+          "duplicated": 2,
+          "notfound": 0,
+          "title": 1,
+          "abstract": 0,
+          "reading": 2
+        }
+      }
+    },
+    {
+      "name": "EI Compendex",
+      "overview": {
+        "selected": 0,
+        "retrieved": 35,
+        "filters": {
+          "inconsistent": 9,
+          "duplicated": 26,
+          "notfound": 0,
+          "title": 0,
+          "abstract": 0,
+          "reading": 0
+        }
+      }
+    },
+    {
+      "name": "Snowballing (backward)",
+      "overview": {
+        "selected": 4,
+        "retrieved": 407,
+        "filters": {
+          "inconsistent": 16,
+          "duplicated": 18,
+          "notfound": 2,
+          "title": 171,
+          "abstract": 186,
+          "reading": 10
+        }
+      }
+    },
+    {
+      "name": "Snowballing (forward)",
+      "overview": {
+        "selected": 2,
+        "retrieved": 100,
+        "filters": {
+          "inconsistent": 0,
+          "duplicated": 10,
+          "notfound": 0,
+          "title": 51,
+          "abstract": 37,
+          "reading": 0
+        }
+      }
+    }
+  ],
+  "documents": [
+    {
+      "title": "Software Product Line Variability: A Systematic Mapping Study",
+      "year": 2008,
+      "authors": [
+        {
+          "name": "Shahid Mujtaba",
+          "institution": {
+            "name": "Blekinge Institute of Technology",
+            "country": "Sweden"
+          }
+        },
+        {
+          "name": "Kai Petersen",
+          "institution": {
+            "name": "Blekinge Institute of Technology",
+            "country": "Sweden"
+          }
+        },
+        {
+          "name": "Robert Feldt",
+          "institution": {
+            "name": "Blekinge Institute of Technology",
+            "country": "Sweden"
+          }
+        },
+        {
+          "name": "Michael Mattsson",
+          "institution": {
+            "name": "Blekinge Institute of Technology",
+            "country": "Sweden"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Not identified",
+        "venue": "Not identified"
+      }
+    },
+    {
+      "title": "A systematic review and an expert survey on capabilities supporting multi product lines",
+      "year": 2012,
+      "authors": [
+        {
+          "name": "Gerald Holl",
+          "institution": {
+            "name": "Johannes Kepler University Linz",
+            "country": "Austria"
+          }
+        },
+        {
+          "name": "Paul Grünbacher",
+          "institution": {
+            "name": "Johannes Kepler University Linz",
+            "country": "Austria"
+          }
+        },
+        {
+          "name": "Rick Rabiser",
+          "institution": {
+            "name": "Johannes Kepler University Linz",
+            "country": "Austria"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "Information and Software Technology"
+      }
+    },
+    {
+      "title": "A systematic review of quality attributes and measures for software product lines",
+      "year": 2012,
+      "authors": [
+        {
+          "name": "Sonia Montagud",
+          "institution": {
+            "name": "Universitat Politècnica de València",
+            "country": "Spain"
+          }
+        },
+        {
+          "name": "Silvia Abrahão",
+          "institution": {
+            "name": "Universitat Politècnica de València",
+            "country": "Spain"
+          }
+        },
+        {
+          "name": "Emilio Insfran",
+          "institution": {
+            "name": "Universitat Politècnica de València",
+            "country": "Spain"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "Software Quality Journal"
+      }
+    },
+    {
+      "title": "A systematic mapping study on software product line evolution: From legacy system reengineering to product line refactoring",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "Miguel A. Laguna",
+          "institution": {
+            "name": "University of Valladolid",
+            "country": "Spain"
+          }
+        },
+        {
+          "name": "Yania Crespo",
+          "institution": {
+            "name": "University of Valladolid",
+            "country": "Spain"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "Science of Computer Programming"
+      }
+    },
+    {
+      "title": "A comparison of software product line traceability approaches from end-to-end traceability perspectives",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "Jingyu Kim",
+          "institution": {
+            "name": "Agency for Defense Development",
+            "country": "Korea, Republic of"
+          }
+        },
+        {
+          "name": "Sungwon Kang",
+          "institution": {
+            "name": "KAIST of Science and Technology",
+            "country": "Korea, Republic of"
+          }
+        },
+        {
+          "name": "Jihyun Lee",
+          "institution": {
+            "name": "Daejeon University",
+            "country": "Korea, Republic of"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "International Journal of Software Engineering and Knowledge Engineering"
+      }
+    },
+    {
+      "title": "Strategies for consistency checking on software product lines: a mapping study",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "Alcemir Rodrigues Santos",
+          "institution": {
+            "name": "Federal University of Bahia",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "Raphael Pereira de Oliveira",
+          "institution": {
+            "name": "Federal University of Bahia",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "Eduardo Santana de Almeida",
+          "institution": {
+            "name": "Federal University of Bahia",
+            "country": "Brazil"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Conference",
+        "venue": "International Conference on Evaluation and Assessment in Software Engineering"
+      }
+    },
+    {
+      "title": "Change Impact in Product Lines: A Systematic Mapping Study",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "Christopher Brink",
+          "institution": {
+            "name": "Paderborn University",
+            "country": "Germany"
+          }
+        },
+        {
+          "name": "Philipp Heisig",
+          "institution": {
+            "name": "University of Applied Sciences and Arts Dortmund",
+            "country": "Germany"
+          }
+        },
+        {
+          "name": "Fabian Wackermann",
+          "institution": {
+            "name": "University of Applied Sciences and Arts Dortmund",
+            "country": "Germany"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Conference",
+        "venue": "International Conference on Information and Software Technologies"
+      }
+    },
+    {
+      "title": "Requirement-driven evolution in software product lines: A systematic mapping study",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "Leticia Montalvillo",
+          "institution": {
+            "name": "University of the Basque Country",
+            "country": "Spain"
+          }
+        },
+        {
+          "name": "Oscar Díaz",
+          "institution": {
+            "name": "University of the Basque Country",
+            "country": "Spain"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "Journal of Systems and Software"
+      }
+    },
+    {
+      "title": "Software product lines traceability: A systematic mapping study",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Tassio Vale",
+          "institution": {
+            "name": "Federal University of Recôncavo da Bahia",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "Eduardo Santana de Almeida",
+          "institution": {
+            "name": "Federal University of Bahia",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "Vander Alves",
+          "institution": {
+            "name": "University of Brasilia",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "Uirá Kulesza",
+          "institution": {
+            "name": "Federal University of Rio Grande do Norte",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "Nan Niu",
+          "institution": {
+            "name": "University of Cincinnati",
+            "country": "United States"
+          }
+        },
+        {
+          "name": "Ricardo de Lima",
+          "institution": {
+            "name": "University of Brasilia",
+            "country": "Brazil"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "Information and Software Technology"
+      }
+    },
+    {
+      "title": "CASE Tool Support for Variability Management in Software Product Lines",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Rabih Bashroush",
+          "institution": {
+            "name": "University of East London",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "Muhammad Garba",
+          "institution": {
+            "name": "University of East London",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "Rick Rabiser",
+          "institution": {
+            "name": "Johannes Kepler University Linz",
+            "country": "Austria"
+          }
+        },
+        {
+          "name": "Iris Groher",
+          "institution": {
+            "name": "Johannes Kepler University Linz",
+            "country": "Austria"
+          }
+        },
+        {
+          "name": "Goetz Botterweck",
+          "institution": {
+            "name": "Lero—University of Limerick",
+            "country": "Ireland"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "ACM Computing Surveys"
+      }
+    },
+    {
+      "title": "A systematic mapping study of information visualization for software product line engineering",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Roberto Erick Lopez-Herrejon",
+          "institution": {
+            "name": "Université du Québec",
+            "country": "Canada"
+          }
+        },
+        {
+          "name": "Sheny Illescas",
+          "institution": {
+            "name": "Johannes Kepler University Linz",
+            "country": "Austria"
+          }
+        },
+        {
+          "name": "Alexander Egyed",
+          "institution": {
+            "name": "Johannes Kepler University Linz",
+            "country": "Austria"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "Journal of Software: Evolution and Process"
+      }
+    },
+    {
+      "title": "Software product line evolution: A systematic literature review",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Maíra Marques",
+          "institution": {
+            "name": "Universidad de Chile",
+            "country": "Chile"
+          }
+        },
+        {
+          "name": "Jocelyn Simmonds",
+          "institution": {
+            "name": "Universidad de Chile",
+            "country": "Chile"
+          }
+        },
+        {
+          "name": "Pedro O. Rossel",
+          "institution": {
+            "name": "Universidad Católica de la Santísima Concepción",
+            "country": "Chile"
+          }
+        },
+        {
+          "name": "María Cecilia Bastarrica",
+          "institution": {
+            "name": "Universidad de Chile",
+            "country": "Chile"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "Information and Software Technology"
+      }
+    },
+    {
+      "title": "Multi software product lines: A systematic mapping study",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Pasquale Ardimento",
+          "institution": {
+            "name": "University of Bari Aldo Moro",
+            "country": "Italy"
+          }
+        },
+        {
+          "name": "Nicola Boffoli",
+          "institution": {
+            "name": "University of Bari Aldo Moro",
+            "country": "Italy"
+          }
+        },
+        {
+          "name": "Giuseppe Superbo",
+          "institution": {
+            "name": "University of Bari Aldo Moro",
+            "country": "Italy"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Conference",
+        "venue": "International Conference on Evaluation of Novel Approaches to Software Engineering"
+      }
+    },
+    {
+      "title": "Evolution of quality assessment in SPL: A systematic mapping",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Luana Almeida Martins",
+          "institution": {
+            "name": "Federal University of Lavras",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "Paulo Afonso Júnior",
+          "institution": {
+            "name": "Federal University of Lavras",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "André Pimenta Freire",
+          "institution": {
+            "name": "Federal University of Lavras",
+            "country": "Brazil"
+          }
+        },
+        {
+          "name": "Heitor Costa",
+          "institution": {
+            "name": "Federal University of Lavras",
+            "country": "Brazil"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Journal",
+        "venue": "IET Software"
+      }
+    },
+    {
+      "title": "Variability Modeling in Software Product Line: A Systematic Literature Review",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Aman Jaffari",
+          "institution": {
+            "name": "Jeonbuk National University",
+            "country": "Korea, Republic of"
+          }
+        },
+        {
+          "name": "Jihyun Lee",
+          "institution": {
+            "name": "Jeonbuk National University",
+            "country": "Korea, Republic of"
+          }
+        },
+        {
+          "name": "Eunmi Kim",
+          "institution": {
+            "name": "Howon University",
+            "country": "Korea, Republic of"
+          }
+        }
+      ],
+      "publication": {
+        "type": "Book Chapter",
+        "venue": "Software Engineering in IoT, Big Data, Cloud and Mobile Computing"
+      }
+    }
+  ]
+}
